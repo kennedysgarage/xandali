@@ -1,0 +1,317 @@
+/*
+	Theme Name: Xandali
+	Theme URI: http://kennedysgarage.com
+	Description: Custom theme for Xander
+	Version: 1.0.0
+	Author: Kennedy (@kennedysgarage)
+	Author URI: http://kennedysgarage.com
+*/
+
+@import url("assets/css/bootstrap.css");
+@import url("assets/css/fontface.css");
+
+/* ========================================================= Main ===*/
+html, body{
+    background-color: #201F24;
+    background-color: #1B1B25;
+    color: #373737;
+    font-size: 1em;
+    font-family: 'Gotham Book';
+    font-weight: 400;
+    line-height: 1.45;
+    width: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+/* ========================================================= Header ===*/
+header{
+  position: relative;
+  margin-top: 600px;
+  z-index: 30;
+}
+.main-menu{
+  /*background-color: rgba(27,27,37,0.8);*/
+  /*background-color: red;*/
+  padding: 10px;
+}
+.cloned{
+  background-color: rgba(27,27,37,0.8);
+}
+/* ------
+-- Nav --
+------ */
+nav{
+  margin: 0 0 60px
+}
+nav h1{
+  display: block;
+  letter-spacing: 5px;
+  margin: 0;
+  margin: 0 auto;
+  font-family: 'Gotham Black';
+  font-size: 40px;
+  text-align: center;
+}
+nav h1 a{
+  color: #fff;
+}
+nav h1 a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+nav .left{
+  /*float: left;
+  display: inline-block;*/
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+nav .right{
+  /*float: right;
+  display: inline-block;*/
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+nav span a{
+  border-radius: 3px;
+  border: 1px solid rgba(255,255,255,0.3);
+  color: rgba(255,255,255,0.3);
+  font-family: 'Gotham Bold';
+  padding: 10px 20px;
+}
+nav span a:hover{
+  background-color: #1EDDB0;
+  color: #fff;
+  text-decoration: none;
+}
+/* ========================================================= Main ===*/
+section{
+  margin: 40px 0 120px;
+  position: relative;
+  z-index: 20;
+}
+.home section p{
+  color: rgba(255,255,255,0.8);
+  font-size: 18px;
+  text-align: center;
+}
+.past-work section{
+  color: rgba(255,255,255,0.8);
+  letter-spacing: 3px;
+  line-height: 30px;
+  text-align: center;
+}
+/* ========================================================= Home ===*/
+#x{
+  /*max-height: 600px;*/
+  position: fixed;
+
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+
+  z-index: 10;
+}
+#logo{
+  margin: 0 auto;
+  max-width: 600px;
+
+	-webkit-animation: 3s ease;
+	-moz-animation: 3s ease;
+	-ms-animation: 3s ease;
+	-o-animation: 3s ease;
+	animation: 3s ease;
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-ms-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+#logo img{
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+p{
+  color: #fff;
+}
+/* ========================================================= Article ===*/
+#article-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#article-list li{
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  list-style: none;
+  margin: 0 0 50px;
+  padding: 0 0 30px;
+}
+#article-list li:last-child{
+  border: none;
+}
+#article-list h3, article h3{
+  color: #fff;
+  font-size: 28px;
+  margin: 0 0 20px;
+}
+#article-list h3 a, article h3 a{
+  color: rgba(30, 221, 176, 0.7);
+}
+#article-list h3 a:hover, article a:hover{
+  color: #1EDDB0;
+  text-decoration: none;
+}
+#article-list .byline, article .byline{
+  color: rgba(255,255,255,0.4);
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0 0 3px;
+}
+#article-list p, article p{
+  color: rgba(255,255,255,0.8);
+}
+/* ========================================================= Footer ===*/
+footer{
+
+}
+footer h4{
+  color: #fff;
+  font-family: 'Gotham Bold';
+  letter-spacing: 6px;
+  margin: 0 0 55px;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer li{
+  margin: 0;
+  padding: 0;
+}
+footer a{
+
+}
+.newsletter{
+  background-color: rgba(27,27,37,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  border-top: 1px solid rgba(255,255,255,0.3);
+  padding: 120px 0;
+  position: relative;
+  z-index: 20;
+}
+.newsletter input{
+  background-color: rgba(255,255,255,0.1);
+  border: none;
+  border-radius: 0;
+}
+.newsletter .btn-x{
+  background-color: #1EDDB0;
+  border-radius: 3px;
+  color: #fff;
+  font-family: 'Gotham Bold';
+  width: 100%;
+}
+.copy{
+  padding: 20px 0 10px;
+}
+.copy p{
+  color: rgba(255,255,255,0.3);
+  display: inline-block;
+  font-size: 14px;
+}
+.copy ul{
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.copy li{
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.copy a{
+  padding: 0 10px;
+}
+/* ========================================================= Animation ===*/
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-ms-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-o-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+/* ========================================================= Utility ===*/
+img{
+    height: auto;
+    max-width: 100%;
+}
+::-moz-selection { background: #ffffa9; color:#54545e; text-shadow: none; }
+::selection { background: #ffffa9; color:#54545e; text-shadow: none; }
+
+a {
+	color: rgba(30, 221, 176, 0.8);
+	text-decoration: none;
+	-webkit-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+	-moz-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+	-ms-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+	-o-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+	transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+}
+a:hover { color: #1EDDB0; }
+a:focus { outline: thin dotted; }
+a:active{ color: #ba4c4e; }
+a:hover, a:active { outline: 0; }
+/* ========================================================= Utility ===*/
+@media (max-width: 480px) {
+  nav h1{
+    display: block;
+    margin-bottom: 20px;
+  }
+  nav .left{
+    display: block;
+    position: relative;
+    left: auto;
+    top: auto;
+    margin-bottom: 10px;
+  }
+  nav .right{
+    display: block;
+    position: relative;
+    right: auto;
+    top: auto;
+  }
+  nav a{
+    display: block;
+  }
+}
