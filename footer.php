@@ -8,12 +8,16 @@
         <div class="col-xs-12 col-xs-offset-0 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
           <h4>Get on the list!</h4>
           <div class="row">
+
+            <form action="http://kennedysgarage.createsend.com/t/r/s/dhuujyr/" method="post" id="subForm">
             <div class="col-sm-12 col-md-8">
-              <input type="email" class="form-control input-lg" placeholder="your@email.com">
+              <input id="fieldEmail" name="cm-dhuujyr-dhuujyr" type="email" required class="form-control input-lg" placeholder="your@email.com"/>
             </div><!--/col-->
             <div class="col-md-4">
-              <a href="" class="btn btn-x btn-lg">Sign Up</a>
+              <button type="submit" class="btn btn-x btn-lg">Sign Up</button>
             </div><!--/col-->
+            </form>
+
           </div><!--/row-->
         </div><!--/col-->
       </div><!--/row-->
