@@ -294,6 +294,9 @@ a:active{ color: #ba4c4e; }
 a:hover, a:active { outline: 0; }
 /* ========================================================= Utility ===*/
 @media (max-width: 480px) {
+  header{
+    margin-top: 372px;
+  }
   nav h1{
     display: block;
     margin-bottom: 20px;
