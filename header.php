@@ -31,7 +31,7 @@
 		  <nav class="main-menu">
 		    <h1><a href="/">XANDALI</a></h1>
 		    <span class="left"><a href="/past-work/">Past Work</a></span>
-		    <span class="right"><a href="/daliblog/">Daliblog</a></span>
+		    <span class="right"><a href="https://www.facebook.com/XANDALI/">Daliblog</a></span>
 		  </nav>
 		</header>
 
